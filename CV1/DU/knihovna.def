@@ -1,0 +1,6 @@
+LIBRARY   knihovna
+EXPORTS
+   File1_Funkce1   @1
+   File1_Funkce2   @2
+   File2_Funkce1   @3
+   File2_Funkce2   @4
