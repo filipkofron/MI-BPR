@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Priviliges
+namespace Privileges
 {
-    public class Priviliges
+    public class Privileges
     {
-      [DllImport("PriviligesLib.dll", CallingConvention = CallingConvention.Cdecl)]
+      [DllImport("PrivilegesLib.dll", CallingConvention = CallingConvention.Cdecl)]
       public static extern void GiveUpAllExceptServer();
 
-      [DllImport("PriviligesLib.dll", CallingConvention = CallingConvention.Cdecl)]
+      [DllImport("PrivilegesLib.dll", CallingConvention = CallingConvention.Cdecl)]
       public static extern void GiveUpAllExceptDateTime();
   }
 }
